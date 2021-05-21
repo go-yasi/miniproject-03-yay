@@ -28,16 +28,67 @@
         </div>
       </div>
 
-      <!-- Card with instructions -->
-      <div class="card">
-        <h5 class="card-header">Instructions</h5>
-        <div class="card-body">
-          <h5 class="card-title">Subtitle if Needed</h5>
-          <p class="card-text">Here are the instructions!</p>
-          <a href="#" class="btn btn-primary">Add Project</a>
-        </div>
-      </div>
-
+      
+      <div class="container-fluid">
+          <div class="row content">
+            <div class="col-12 col-sm-3">
+                <!-- Card with instructions -->
+                <div class="card">
+                    <h5 class="card-header">Instructions</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">Click on the button below to open a form and provide information for the following:</h5>
+                      <p class="card-text">Project Name</p>
+                      <p class="card-text">Project Type</p>
+                      <p class="card-text">Due Date</p>
+                      <p class="card-text">Hourly Rate</p>
+                      <a href="#" class="btn btn-primary">Add Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-9">
+                <!-- Table -->
+                <table class="table table-hover">
+                    <thead class=thead-dark>
+                      <tr>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Project Type</th>
+                        <th scope="col">Hourly Rate</th>
+                        <th scope="col">Due Date</th>
+                        <th scope="col">Days Until Due Date</th>
+                        <th scope="col">Potential Total Earnings</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+        </div> 
+        
+    
       <!-- Modal -->
       <div class="modal" tabindex="-1">
         <div class="modal-dialog">
@@ -59,36 +110,7 @@
         </div>
       </div>
 
-      <!-- Table -->
-      <table class="table table-hover">
-        <thead class=thead-dark>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
+      
     
 </body>
 <!-- Moved jQuery <script> tags -->
